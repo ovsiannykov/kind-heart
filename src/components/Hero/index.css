@@ -1,9 +1,10 @@
 .hero {
   padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
   background-color: white;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .title-box {
@@ -17,6 +18,7 @@
   font-size: 56px;
   font-weight: 800;
   color: #b39ddb;
+  text-align: start;
 }
 
 .sub-title p {
@@ -24,6 +26,7 @@
   font-size: 22px;
   margin-top: 10px;
   font-weight: 600;
+  text-align: start;
 }
 
 .image {
@@ -49,4 +52,42 @@
   background-color: white;
   border-width: 2px;
   border-color: #b39ddb;
+}
+
+/* ---------- */
+/* Adaptive */
+/* ---------- */
+
+@media (max-width: 1079px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .image {
+    margin-top: 80px;
+  }
+
+  .title-box {
+    padding-top: 30px;
+    align-items: center;
+  }
+
+  .sub-title p {
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 530px) {
+  .image {
+    width: 270px;
+    height: 270px;
+  }
+
+  .title {
+    font-size: 38px;
+    font-weight: 900;
+  }
 }
