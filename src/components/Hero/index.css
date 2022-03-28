@@ -1,0 +1,52 @@
+.hero {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  height: 100vh;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 200px;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 800;
+  color: #b39ddb;
+}
+
+.sub-title p {
+  color: #b39ddb;
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.image {
+  margin-top: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.hero-button {
+  padding: 10px;
+  background-color: #b39ddb;
+  color: white;
+  border-radius: 10px;
+  border-width: 0;
+  font-weight: 600;
+  border-width: 2px;
+  border-color: #b39ddb;
+  font-size: 18px;
+}
+
+.hero-button:hover {
+  color: #b39ddb;
+  background-color: white;
+  border-width: 2px;
+  border-color: #b39ddb;
+}
