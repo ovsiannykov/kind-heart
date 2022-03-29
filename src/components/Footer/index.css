@@ -1,0 +1,16 @@
+footer {
+  border-top: 1px solid #836fa99f;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgba(41, 41, 109, 0.014);
+  text-align: center;
+  color: rgba(41, 41, 109, 0.685);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+footer a {
+  text-decoration: none;
+  color: #836fa9;
+}

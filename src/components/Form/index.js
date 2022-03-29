@@ -15,7 +15,7 @@ const Form = () => {
         <div className="container">
           <div className="row">
             {/* Left section */}
-            <div className="col-lg">
+            <div className="col-lg left-form">
               <div className="row margin-fields">
                 <div className="col">
                   <label for="name" class="form-label">
@@ -90,7 +90,72 @@ const Form = () => {
               </div>
             </div>
             {/* Right section */}
-            <div className="col-lg">2 of 2</div>
+            <div className="col-lg">
+              <div className="right-form">
+                <div className="country  mr-top-10">
+                  <label for="country" class="form-label">
+                    Країна
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    aria-label="country"
+                    id="country"
+                    required
+                  />
+                </div>
+                <div className="row mr-top-10">
+                  <div className="col">
+                    <label for="city" class="form-label">
+                      Mісто
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      aria-label="city"
+                      id="city"
+                      required
+                    />
+                  </div>
+                  <div className="col-lg">
+                    <label for="area" class="form-label">
+                      Штат, район
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      aria-label="area"
+                      id="area"
+                    />
+                  </div>
+                </div>
+                <div className="adress  mr-top-10">
+                  <label for="adressa" class="form-label">
+                    Адресса
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    aria-label="adress"
+                    id="adress"
+                  />
+                </div>
+                <div className="row mr-top-10 index">
+                  <div className="col">
+                    <label for="index" class="form-label">
+                      Iндекс
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      aria-label="index"
+                      id="index"
+                    />
+                  </div>
+                  <div className="empty-field col-lg"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </form>

@@ -33,11 +33,23 @@
 }
 
 .margin-fields {
-  margin-right: 99px;
+  margin-right: 100px;
+}
+
+.right-form {
+  margin-left: 100px;
 }
 
 @media (max-width: 992px) {
   .margin-fields {
     margin-right: 0;
+  }
+
+  .right-form {
+    margin-left: 0;
+  }
+
+  .empty-field {
+    display: none;
   }
 }
