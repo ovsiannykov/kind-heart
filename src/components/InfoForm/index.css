@@ -5,3 +5,23 @@
   font-weight: 900;
   margin-bottom: 25px;
 }
+
+.css-1gjgmky-MuiToggleButtonGroup-root
+  .MuiToggleButtonGroup-grouped:not(:last-of-type) {
+  background-color: #836fa9 !important;
+  font-weight: 600;
+  border-width: 2px;
+  border-color: #836fa9;
+}
+
+.css-1gjgmky-MuiToggleButtonGroup-root
+  .MuiToggleButtonGroup-grouped:not(:first-of-type) {
+  border-width: 2px;
+  border-color: #836fa9;
+  color: #836fa9;
+  font-weight: 600;
+}
+
+.toggle-text {
+  color: white;
+}

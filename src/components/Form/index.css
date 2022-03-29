@@ -1,0 +1,43 @@
+.form-component {
+  margin-top: 50px;
+  height: 500px;
+}
+
+.form-control {
+  background-color: #ede7f6;
+}
+
+.form-label {
+  color: #beaddd;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 400;
+}
+
+.mr-top-10 {
+  margin-top: 10px;
+}
+
+#upload {
+  display: none;
+}
+
+.upload-link {
+  text-decoration: none;
+  color: #beaddd;
+}
+
+.upload-link:hover {
+  color: #836fa9;
+}
+
+.margin-fields {
+  margin-right: 99px;
+}
+
+@media (max-width: 992px) {
+  .margin-fields {
+    margin-right: 0;
+  }
+}
