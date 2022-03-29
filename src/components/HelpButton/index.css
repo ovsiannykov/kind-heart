@@ -37,3 +37,9 @@
 .help-text-hover {
   color: #836fa9;
 }
+
+@media (max-width: 1079px) {
+  .help-btn {
+    flex-direction: column;
+  }
+}
