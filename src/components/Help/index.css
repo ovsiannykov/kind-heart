@@ -1,46 +1,8 @@
 #help-section {
-  height: 500px;
+  margin-bottom: 120px;
+  margin-top: 180px;
 }
 
 .mr-top-50 {
   margin-top: 50px;
-}
-
-.help-btn {
-  height: 200px;
-  width: 200px;
-  background: none;
-  border: none;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-}
-
-.icon-box {
-  padding: 30px;
-  margin-right: 20px;
-  border: solid #beaddd;
-  border-radius: 10px;
-  border-width: 2px;
-}
-
-.icon {
-  width: 80px;
-  height: 80px;
-}
-
-.help-text {
-  font-size: 26px;
-  font-weight: 800;
-  color: #beaddd;
-}
-
-.icon-box:hover {
-  border: solid #836fa9;
-  border-width: 2px;
-}
-
-.help-text:hover {
-  color: #836fa9;
 }
