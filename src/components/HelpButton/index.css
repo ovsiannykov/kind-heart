@@ -38,7 +38,7 @@
   color: #836fa9;
 }
 
-@media (max-width: 1079px) {
+@media (max-width: 1200px) {
   .help-btn {
     flex-direction: column;
   }

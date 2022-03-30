@@ -66,6 +66,44 @@
   background-color: #836fa9;
 }
 
+.payment-cart {
+  padding: 40px 10px;
+  border-radius: 10px;
+  background-color: #beaddd9d;
+}
+
+.payment-h5 {
+  color: #beaddd9d;
+  font-weight: 700;
+  text-align: left;
+}
+
+.card-title {
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card-number {
+  margin-bottom: 20px;
+}
+
+.validity {
+  max-width: 100px;
+}
+
+.CVV {
+  max-width: 80px;
+}
+
+.cvv-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 15px;
+}
+
 @media (max-width: 1079px) {
   .payment-row {
     display: flex;
@@ -77,15 +115,18 @@
     flex-direction: column;
     align-items: center;
   }
-}
 
-.payment-h5 {
-  color: #beaddd9d;
-  font-weight: 700;
-  text-align: left;
-}
+  .payment-cart {
+    max-width: 60%;
+  }
 
-@media (max-width: 1079px) {
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
   .payment-h5 {
     text-align: center;
   }

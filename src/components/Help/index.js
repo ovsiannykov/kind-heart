@@ -59,7 +59,13 @@ const Help = () => {
           </div>
         </div>
       </div>
-      {selectHelp === "finance" ? <Payment /> : null}
+      {selectHelp === "finance" ? (
+        <Payment />
+      ) : (
+        <div className="oops-box">
+          <span>Блок ще не готовий 😔 </span>
+        </div>
+      )}
     </section>
   );
 };

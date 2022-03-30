@@ -4,14 +4,16 @@ import "./index.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <span>
-        Created by{" "}
-        <a href="https://t.me/mikie_mac" target="_blank">
-          ovsiannykov
-        </a>
-      </span>
-    </footer>
+    <>
+      <footer>
+        <span>
+          Created by{" "}
+          <a href="https://t.me/mikie_mac" target="_blank">
+            ovsiannykov
+          </a>
+        </span>
+      </footer>
+    </>
   );
 };
 
