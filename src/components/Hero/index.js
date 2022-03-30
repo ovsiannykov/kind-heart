@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 
 import "./index.css";
 
@@ -10,16 +11,25 @@ const Hero = (props) => {
       <div class="container">
         <div className="hero">
           <div className="title-box">
-            <h1 className="title">Допомагати – це круто</h1>
-            <div className="sub-title">
+            <h1 className="title animate__animated animate__fadeInUp">
+              Допомагати – це круто
+            </h1>
+            <div className="sub-title animate__animated animate__fadeInUp delay-1s">
               <h2>Благодійний фонд когось там</h2>
             </div>
-            <button onClick={props.func} className="hero-button btn">
+            <button
+              onClick={props.func}
+              className="hero-button btn animate__animated animate__fadeInUp animate__delay-1s"
+            >
               Детальніше
             </button>
           </div>
           <div className="image-box">
-            <img className="image" src={heroImage} alt="hero" />
+            <img
+              className="image animate__animated animate__zoomIn Updelay-1-5"
+              src={heroImage}
+              alt="hero"
+            />
           </div>
         </div>
       </div>

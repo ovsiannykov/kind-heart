@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import WOW from "wowjs";
 
 import "./index.css";
 
@@ -8,8 +9,14 @@ const webmoney = require("../../assets/img/webmoney.png");
 const paypal = require("../../assets/img/paypal.png");
 
 const Payment = () => {
+  useEffect(() => {
+    new WOW.WOW({
+      live: false,
+    }).init();
+  }, []);
+
   return (
-    <div className="container payment">
+    <div className="container payment wow animate__animated animate__fadeInUp">
       <div className="row">
         <div className="col-lg-7">
           <h5 className="payment-h5">Спосіб оплати</h5>

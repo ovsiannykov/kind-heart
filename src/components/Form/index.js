@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import WOW from "wowjs";
 
 import "./index.css";
 
@@ -9,8 +10,14 @@ const Form = () => {
     element.click();
   };
 
+  useEffect(() => {
+    new WOW.WOW({
+      live: false,
+    }).init();
+  }, []);
+
   return (
-    <div className="form-component">
+    <div className="form-component wow animate__animated animate__fadeIn animate__delay-1s">
       <form>
         <div className="container">
           <div className="row">

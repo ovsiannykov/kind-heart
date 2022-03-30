@@ -116,15 +116,17 @@
     align-items: center;
   }
 
-  .payment-cart {
-    max-width: 60%;
-  }
-
   .card-box {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
+  }
+
+  .payment-cart {
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #beaddd9d;
   }
 
   .payment-h5 {
