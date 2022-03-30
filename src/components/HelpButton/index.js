@@ -23,7 +23,7 @@ const HelpButton = (props) => {
 
   return (
     <button
-      onClick={hoverBlock}
+      onClick={props.onClick}
       onMouseOver={hoverBlock}
       onMouseOut={deleteHoverBlock}
       className="help-btn"

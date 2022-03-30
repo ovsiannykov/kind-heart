@@ -1,10 +1,9 @@
 footer {
-  border-top: 1px solid #836fa99f;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: rgba(41, 41, 109, 0.014);
+  background: #836fa9;
   text-align: center;
-  color: rgba(41, 41, 109, 0.685);
+  color: #beaddd;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -12,5 +11,9 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #836fa9;
+  color: #beaddd;
+}
+
+footer a:hover {
+  color: rgb(235, 227, 227);
 }

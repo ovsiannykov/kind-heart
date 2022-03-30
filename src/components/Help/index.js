@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import "./index.css";
 import HelpButton from "../HelpButton";
+import Payment from "../Payment";
 
 const hand = require("../../assets/img/hand.png");
 const handLight = require("../../assets/img/hand-light.png");
@@ -13,6 +14,8 @@ const heart = require("../../assets/img/heart.png");
 const heartLight = require("../../assets/img/heart-light.png");
 
 const Help = () => {
+  const [selectHelp, setSelectHelp] = useState("finance");
+
   return (
     <section id="help-section">
       <div className="container">
@@ -24,15 +27,16 @@ const Help = () => {
               title="Зробити"
               image={hand}
               lightImage={handLight}
+              onClick={() => setSelectHelp("make")}
             />
           </div>
           <div className="col-lg-3 mobile-centered">
-            {" "}
             <HelpButton
               id="finance"
               title="Фінансова допомога"
               image={purse}
               lightImage={purseLight}
+              onClick={() => setSelectHelp("finance")}
             />
           </div>
           <div className="col-lg-3 mobile-centered">
@@ -41,6 +45,7 @@ const Help = () => {
               title="Матеріальна допомога"
               image={clothes}
               lightImage={clothesLight}
+              onClick={() => setSelectHelp("material")}
             />
           </div>
           <div className="col-lg-3 mobile-centered">
@@ -49,10 +54,12 @@ const Help = () => {
               title="Волонтерство"
               image={heart}
               lightImage={heartLight}
+              onClick={() => setSelectHelp("volunteering")}
             />
           </div>
         </div>
       </div>
+      {selectHelp === "finance" ? <Payment /> : null}
     </section>
   );
 };

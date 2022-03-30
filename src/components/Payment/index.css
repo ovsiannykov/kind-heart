@@ -1,0 +1,92 @@
+.payment {
+  max-width: 90%;
+  border: solid #beaddd9d;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 20px;
+}
+
+.payment-variant {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: #beaddd9d;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  width: 220px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.payment-title {
+  color: white;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.visa-img {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.privat-title {
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+}
+
+.terminal-img {
+  width: 46px;
+  height: 43px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.webmoney-img {
+  width: 120px;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.paypal-img {
+  width: 50px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.active-payment {
+  background-color: #836fa9;
+}
+
+@media (max-width: 1079px) {
+  .payment-row {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .payment-donw-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.payment-h5 {
+  color: #beaddd9d;
+  font-weight: 700;
+  text-align: left;
+}
+
+@media (max-width: 1079px) {
+  .payment-h5 {
+    text-align: center;
+  }
+}

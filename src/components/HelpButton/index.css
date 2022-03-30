@@ -43,3 +43,9 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 1396px) {
+  .help-text {
+    font-size: 14px;
+  }
+}
