@@ -38,6 +38,15 @@
   color: #836fa9;
 }
 
+.icon-box-select {
+  border: solid #836fa9;
+  border-width: 2px;
+}
+
+.help-text-select {
+  color: #836fa9;
+}
+
 @media (max-width: 1200px) {
   .help-btn {
     flex-direction: column;
