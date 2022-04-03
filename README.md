@@ -4,10 +4,11 @@
 
 https://t.me/mikie_mac
 
-## Task:
+### Task:
 
-Build site blocks from screenshots using React;
-Make adaptive; 
-It is advisable to use the UI libraries;
-Add animation; 
-Time - 48 hours;
+* Build site blocks from screenshots; 
+* Using React;
+* Make adaptive; 
+* It is advisable to use the UI libraries;
+* Add animation; 
+* Time - 48 hours;
